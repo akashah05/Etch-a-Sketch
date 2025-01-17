@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <label for="rows">
+        Enter Rows:
+        <input type="number" id="rows" name="rows" min="1" max="100" required>
+    </label>
+    <label for="cols">
+        Enter Columns:
+        <input type="number" id="cols" name="cols" min="1" max="100" required>
+    </label>
+    <button type="button" id="submit-btn">Submit</button>
+    <button type="button" id="clear-btn">Clear</button>
+    <div id="container"></div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
